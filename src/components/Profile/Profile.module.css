@@ -28,11 +28,6 @@
     /* Super Modern Browsers */ url('./fonts/lato-v16-latin-900.woff')
       format('woff'); /* Modern Browsers */
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .wrap {
   font-family: Lato, sans-serif;

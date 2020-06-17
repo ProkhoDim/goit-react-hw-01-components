@@ -1,0 +1,35 @@
+.transactions {
+  border-collapse: collapse;
+  font-family: Colibri, sans-serif;
+  border: none;
+}
+
+.tableHead {
+  text-transform: uppercase;
+  padding: 10px 70px;
+  color: #ffffff;
+  background-color: #00bcd4;
+  border: 2px solid #e0e6e7;
+}
+
+.tableRow {
+  color: #5c6975;
+}
+
+.tableRow:nth-child(2n + 1) {
+  background-color: #ecf2f3;
+}
+
+.tableData {
+  border: 2px solid #e0e6e7;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tableDataFirstRow {
+  text-transform: capitalize;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

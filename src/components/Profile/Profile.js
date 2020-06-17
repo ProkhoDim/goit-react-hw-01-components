@@ -3,13 +3,11 @@ import PropTypes from 'prop-types';
 import styles from './Profile.module.css';
 
 const Profile = ({
-  data: {
-    name,
-    tag,
-    location = 'N/A',
-    avatar = 'https://theatreonpodol.com/wp-content/themes/main/img/noimage.jpg',
-    stats: { followers = 0, views = 0, likes = 0 },
-  },
+  name,
+  tag,
+  location,
+  avatar,
+  stats: { followers, views, likes },
 }) => {
   return (
     <div className={styles.wrap}>
@@ -38,17 +36,20 @@ const Profile = ({
   );
 };
 
+Profile.defaultProp = {
+  avatar: 'https://theatreonpodol.com/wp-content/themes/main/img/noimage.jpg',
+  location: 'N/A',
+};
+
 Profile.propTypes = {
-  data: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    tag: PropTypes.string.isRequired,
-    location: PropTypes.string,
-    avatar: PropTypes.string,
-    stats: PropTypes.shape({
-      followers: PropTypes.number,
-      likes: PropTypes.number,
-      views: PropTypes.number,
-    }),
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string,
+  avatar: PropTypes.string,
+  stats: PropTypes.exact({
+    followers: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
   }).isRequired,
 };
 
