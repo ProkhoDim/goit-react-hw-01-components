@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ProkhoDim/goit-react-hw-01-components/static/css/main.0117e32a.chunk.css",
-    "main.js": "/ProkhoDim/goit-react-hw-01-components/static/js/main.ad1f072d.chunk.js",
-    "main.js.map": "/ProkhoDim/goit-react-hw-01-components/static/js/main.ad1f072d.chunk.js.map",
-    "runtime-main.js": "/ProkhoDim/goit-react-hw-01-components/static/js/runtime-main.27b7fd51.js",
-    "runtime-main.js.map": "/ProkhoDim/goit-react-hw-01-components/static/js/runtime-main.27b7fd51.js.map",
-    "static/js/2.03f0f547.chunk.js": "/ProkhoDim/goit-react-hw-01-components/static/js/2.03f0f547.chunk.js",
-    "static/js/2.03f0f547.chunk.js.map": "/ProkhoDim/goit-react-hw-01-components/static/js/2.03f0f547.chunk.js.map",
-    "index.html": "/ProkhoDim/goit-react-hw-01-components/index.html",
-    "precache-manifest.cac815a8e38a6d82b0af0edf156e5e4a.js": "/ProkhoDim/goit-react-hw-01-components/precache-manifest.cac815a8e38a6d82b0af0edf156e5e4a.js",
-    "service-worker.js": "/ProkhoDim/goit-react-hw-01-components/service-worker.js",
-    "static/css/main.0117e32a.chunk.css.map": "/ProkhoDim/goit-react-hw-01-components/static/css/main.0117e32a.chunk.css.map",
-    "static/js/2.03f0f547.chunk.js.LICENSE.txt": "/ProkhoDim/goit-react-hw-01-components/static/js/2.03f0f547.chunk.js.LICENSE.txt",
-    "static/media/Statistic.module.css": "/ProkhoDim/goit-react-hw-01-components/static/media/ProximaNova-Regular.ecef0fae.woff2",
-    "static/media/Profile.module.css": "/ProkhoDim/goit-react-hw-01-components/static/media/lato-v16-latin-regular.b8ee546a.woff"
+    "main.css": "/goit-react-hw-01-components/static/css/main.b96eb2b7.chunk.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.ad1f072d.chunk.js",
+    "main.js.map": "/goit-react-hw-01-components/static/js/main.ad1f072d.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-01-components/static/js/runtime-main.60be8746.js",
+    "runtime-main.js.map": "/goit-react-hw-01-components/static/js/runtime-main.60be8746.js.map",
+    "static/js/2.03f0f547.chunk.js": "/goit-react-hw-01-components/static/js/2.03f0f547.chunk.js",
+    "static/js/2.03f0f547.chunk.js.map": "/goit-react-hw-01-components/static/js/2.03f0f547.chunk.js.map",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "precache-manifest.a492d8f253ec7f662ca4dae705b3387d.js": "/goit-react-hw-01-components/precache-manifest.a492d8f253ec7f662ca4dae705b3387d.js",
+    "service-worker.js": "/goit-react-hw-01-components/service-worker.js",
+    "static/css/main.b96eb2b7.chunk.css.map": "/goit-react-hw-01-components/static/css/main.b96eb2b7.chunk.css.map",
+    "static/js/2.03f0f547.chunk.js.LICENSE.txt": "/goit-react-hw-01-components/static/js/2.03f0f547.chunk.js.LICENSE.txt",
+    "static/media/Statistic.module.css": "/goit-react-hw-01-components/static/media/ProximaNova-Regular.ecef0fae.woff2",
+    "static/media/Profile.module.css": "/goit-react-hw-01-components/static/media/lato-v16-latin-regular.b8ee546a.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.27b7fd51.js",
+    "static/js/runtime-main.60be8746.js",
     "static/js/2.03f0f547.chunk.js",
-    "static/css/main.0117e32a.chunk.css",
+    "static/css/main.b96eb2b7.chunk.css",
     "static/js/main.ad1f072d.chunk.js"
   ]
 }
