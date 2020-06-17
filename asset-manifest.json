@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7fc2d65.chunk.css",
+    "main.js": "/static/js/main.ad1f072d.chunk.js",
+    "main.js.map": "/static/js/main.ad1f072d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7043763e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7043763e.js.map",
+    "static/js/2.03f0f547.chunk.js": "/static/js/2.03f0f547.chunk.js",
+    "static/js/2.03f0f547.chunk.js.map": "/static/js/2.03f0f547.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.504ae330121797153a73e7de7998a416.js": "/precache-manifest.504ae330121797153a73e7de7998a416.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d7fc2d65.chunk.css.map": "/static/css/main.d7fc2d65.chunk.css.map",
+    "static/js/2.03f0f547.chunk.js.LICENSE.txt": "/static/js/2.03f0f547.chunk.js.LICENSE.txt",
+    "static/media/Statistic.module.css": "/static/media/ProximaNova-Regular.ecef0fae.woff2",
+    "static/media/Profile.module.css": "/static/media/lato-v16-latin-regular.b8ee546a.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7043763e.js",
+    "static/js/2.03f0f547.chunk.js",
+    "static/css/main.d7fc2d65.chunk.css",
+    "static/js/main.ad1f072d.chunk.js"
+  ]
+}
