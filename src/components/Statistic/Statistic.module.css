@@ -1,45 +1,18 @@
-/* lato-regular - latin */
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
-    url('./fonts/ProximaNova-Regular.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('./fonts/ProximaNova-Regular.woff')
-      format('woff'); /* Modern Browsers */
-}
-/* lato-700 - latin */
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
-    url('./fonts/ProximaNova-Bold.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('./fonts/ProximaNova-Bold.woff')
-      format('woff'); /* Modern Browsers */
-}
-/* lato-900 - latin */
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Proxima Nova Light'), local('ProximaNova-Light'),
-    url('./fonts/ProximaNova-Light.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('./fonts/ProximaNova-Light.woff')
-      format('woff'); /* Modern Browsers */
-}
-
 .statistics {
-  font-family: 'Proxima Nova', sans-serif;
+  padding: 60px 55px;
+  background-color: #f0f3f6;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-flow: column nowrap;
   width: max-content;
+  margin-bottom: 30px;
 }
 
 .title {
+  background-color: #fff;
+  color: #475965;
   padding: 30px 0;
-  align-self: center;
-  justify-self: center;
+  text-align: center;
   font-weight: 700;
 }
 

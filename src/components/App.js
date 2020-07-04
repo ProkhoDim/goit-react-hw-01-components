@@ -6,10 +6,10 @@ import Statistic from './Statistic/Statistic';
 import FriendList from './FriendList/FriendList';
 import TransacrionHistory from './TransactionHistory/TransactionHistory';
 
-import Users from '../backend/user.json';
-import Statistics from '../backend/statistical-data.json';
-import Friends from '../backend/friends.json';
-import Transactions from '../backend/transactions.json';
+import Users from '../data/user.json';
+import Statistics from '../data/statistical-data.json';
+import Friends from '../data/friends.json';
+import Transactions from '../data/transactions.json';
 
 ReactDOM.render(
   <>

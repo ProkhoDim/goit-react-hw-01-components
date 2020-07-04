@@ -1,34 +1,3 @@
-/* lato-regular - latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'),
-    url('./fonts/lato-v16-latin-regular.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('./fonts/lato-v16-latin-regular.woff')
-      format('woff'); /* Modern Browsers */
-}
-/* lato-700 - latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'),
-    url('./fonts/lato-v16-latin-700.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('./fonts/lato-v16-latin-700.woff')
-      format('woff'); /* Modern Browsers */
-}
-/* lato-900 - latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Lato Black'), local('Lato-Black'),
-    url('./fonts/lato-v16-latin-900.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('./fonts/lato-v16-latin-900.woff')
-      format('woff'); /* Modern Browsers */
-}
-
 .wrap {
   font-family: Lato, sans-serif;
   width: 250px;
@@ -39,6 +8,7 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .description {

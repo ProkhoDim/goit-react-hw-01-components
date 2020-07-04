@@ -2,34 +2,31 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Statistic.module.css';
 
-const Statistics = ({ title, stats }) => {
-  return (
-    <section className={styles.statistics}>
-      {title && <h2 className={styles.title}>{title}</h2>}
-      <ul className={styles.list}>
-        {stats.map(({ id, label, percentage }) => {
-          const RandomColor = () => {
-            let rndmColorArr = [];
-            while (rndmColorArr.length < 3) {
-              rndmColorArr.push(Math.floor(Math.random() * 256));
-            }
-            return `rgb(${rndmColorArr.join(',')})`;
-          };
-          return (
-            <li
-              key={id}
-              className={styles.listItem}
-              style={{ backgroundColor: RandomColor() }}
-            >
-              <span className={styles.label}>{label}</span>
-              <span className={styles.percentage}>{percentage}%</span>
-            </li>
-          );
-        })}
-      </ul>
-    </section>
-  );
+const RandomColor = () => {
+  let rndmColorArr = [];
+  while (rndmColorArr.length < 3) {
+    rndmColorArr.push(Math.floor(Math.random() * 256));
+  }
+  return `rgb(${rndmColorArr.join(',')})`;
 };
+
+const Statistics = ({ title, stats }) => (
+  <section className={styles.statistics}>
+    {title && <h2 className={styles.title}>{title}</h2>}
+    <ul className={styles.list}>
+      {stats.map(({ id, label, percentage }) => (
+        <li
+          key={id}
+          className={styles.listItem}
+          style={{ backgroundColor: RandomColor() }}
+        >
+          <span className={styles.label}>{label}</span>
+          <span className={styles.percentage}>{percentage}%</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+);
 
 Statistics.defaultProps = {
   title: '',
